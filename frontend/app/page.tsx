@@ -71,11 +71,11 @@ export default function HomePage() {
           <div className="relative w-full max-w-xl mx-auto">
             <Input
               type="text"
-              placeholder="Manzil, mehmonxona yoki xizmatni qidiring..."
+              placeholder="Qidiruv..."
               className="w-full py-3 pl-12 pr-4 rounded-full text-black bg-white shadow-lg focus:ring-2 focus:ring-primary focus:border-primary"
             />
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500" size={20} />
-            <Button className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full px-6 py-2">
+            <Button className="absolute right-0 top-1/2 -translate-y-1/2 rounded-full px-6 py-2">
               Qidirish
             </Button>
           </div>
