@@ -10,8 +10,11 @@ import { ScrollToTop } from '@/components/layout/scroll-to-top'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'UzWay - O\'zbekiston bo\'ylab sayohat platformasi',
-  description: 'O\'zbekistonning go\'zal joylarini kashf eting. Mehmonxonalar, restoranlar, transport va mahalliy xizmatlarni bir joyda toping.',
+  title: 'UzWay - Turizm platformasi',
+  description: 'UzWay - O\'zbekiston bo\'ylab sayohat platformasi',
+    icons: {
+    icon: '/favicon.png', // public papkadagi fayl yo‘li
+  },
     generator: 'v0.dev'
 }
 
